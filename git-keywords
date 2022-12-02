@@ -1,11 +1,13 @@
 key git keywords
 
-git status -> check status of files/folders
-git add . -> add files that are to be commited
-git log -> shows timeline of commits. press Q to get out of it 
-git commit -m"comment" ->to commit your edit but it DOESNT go to github. comment is required to show what you changed
-git log --online --graph -> does something simiar to log (not sure yet)
-git push -> push everything to github , which then leads to -> git push --set-upstream origin nameOfNewBranch
+git init  -> initialise LOCAL repository
+git status  -> check status of files/folders
+git log  -> shows timeline of commits. press enter several times until 'END' shows and then press Q to get out of it 
+git log --oneline --graph  -> shows a 'graph' of your timeline from main and to your branches 
+git add .  -> add changes that are to be commited
+git commit -m"comment"  -> to commit your change but it DOESNT go to github. comment is required to show what you changed
+git push  -> push everything to github , which then leads to  -->  git push --set-upstream origin nameOfNewBranch
 git switch -c nameOfNewBranch ->to create a new branch
-git pull -> to match whats on github
-git switch -> to switch to any other branch
+git switch toAnyOfTheBranchesYouveCreated  -> to switch to any other branch
+git branch -> to check what branch youre on 
+git pull -> to sync with whats on github --> BEFORE YOU PULL check what branch youre in as it should be main
