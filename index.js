@@ -6,7 +6,7 @@ const printFruit = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === "apple") {
             console.log(`I like ${arr[i]}s`);
-        } else if (arr[i] === "banana") {
+        } else {
             console.log(`I dont like ${arr[i]}s`);
         }
     }
