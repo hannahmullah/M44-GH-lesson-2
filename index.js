@@ -4,5 +4,7 @@
 const printFruit = () => {
     console.log("I dont like apples");
     console.log("I dont like pears");
-}
+};
+
+printFruit();
 
