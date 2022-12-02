@@ -1,0 +1,11 @@
+key git keywords
+
+git status -> check status of files/folders
+git add . -> add files that are to be commited
+git log -> shows timeline of commits. press Q to get out of it 
+git commit -m"comment" ->to commit your edit but it DOESNT go to github. comment is required to show what you changed
+git log --online --graph -> does something simiar to log (not sure yet)
+git push -> push everything to github , which then leads to -> git push --set-upstream origin nameOfNewBranch
+git switch -c nameOfNewBranch ->to create a new branch
+git pull -> to match whats on github
+git switch -> to switch to any other branch
