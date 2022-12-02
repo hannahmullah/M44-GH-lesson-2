@@ -1,21 +1,15 @@
 //Michaels awesome app by Michaels awesome app company
 
+const fruitArr = ["apple", "banana", "mango", "blueberry"];
 
-const printFruit = () => {
-    console.log("I dont like apples");
-    console.log("I dont like pears");
+const printFruit = (arr) => {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === "apple") {
+            console.log(`I like ${arr[i]}s`);
+        } else if (arr[i] === "banana") {
+            console.log(`I dont like ${arr[i]}s`);
+        }
+    }
 };
 
-printFruit();
-
-/* key git terms
-git status
-git add .
-git log
-git commit -m"comment"
-git log --online --graph
-git push
-git switch -c nameOfNewBranch
-git pull
-git push --set-upstream origin nameOfNewBranch
-git switch -> to swtich to any other branch */
+printFruit(fruitArr);
